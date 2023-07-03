@@ -33,7 +33,7 @@ enable_nat_gateway = true
 
 module "blog_sg" {
   source  = "terraform-aws-modules/security-group/aws"
-  version = "5.1.0"
+  version = "5.1.2"
 
   vpc_id  = module.blog_vpc.vpc_id
   name    = "blog"
