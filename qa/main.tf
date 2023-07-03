@@ -4,6 +4,6 @@ module "qa" {
     name = "qa"
     network_prefix = "10.1"
   }
-  asg_min_s = 1
-  asg_max_s = 2
+  asg_min = 1
+  asg_max = 2
 }
